@@ -1,0 +1,116 @@
+---
+title: "A First Meeting With Machine Learning"
+author: "Filippo Cavallari"
+execute: 
+  echo: false
+format:
+    revealjs:
+        theme: simple
+        transition: fade
+        slide-number: c/t
+        footer: ""
+highlight-style: solarized
+code-line-numbers: false
+---
+
+## What we are NOT going to do
+
+## What we will TRY to do
+
+# Some History
+
+## What is Machine Learning?
+
+> Field of study that gives computers the ability to learn without being
+> explicitly programmed
+
+Arthur Samuel is credited for this definition, but there is no source of it!
+
+:::{.aside}
+Reference [Source of Arthur Samuel's definition of machine learning](https://datascience.stackexchange.com/questions/37078/source-of-arthur-samuels-definition-of-machine-learning)
+:::
+
+## Arthur Samuel {.smaller}
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
++ Was a pioneer of artificial-intelligence research
+
++ In 1959, while working at IBM, he published a paper that popularized the term
+*machine learning*
+
+> A computer can be programmed so that it will learn to play a better game of
+checkers than can be played by the person who wrote the program.
+
+> Programming computers to learn from experience should eventually eliminate the
+need for much of this detailed programming effort.
+
+:::
+
+::: {.column width="20%"}
+```{r, fig.align = 'center', fig.cap='Image Credit Wikipedia'}
+knitr::include_graphics("Img\\Arthur_Samuel.jpg")
+```
+:::
+
+::::
+
+:::{.aside}
+A. L. Samuel, "[Some Studies in Machine Learning Using the Game of Checkers,](https://ieeexplore.ieee.org/document/5392560)"
+in *IBM Journal of Research and Development*, vol. 3, no. 3, pp. 210-229,
+July 1959, doi: 10.1147/rd.33.0210.
+
+A. L. Samuel, "[Some Studies in Machine Learning Using the Game of Checkers. II—Recent Progress,](https://ieeexplore.ieee.org/document/5391906)"
+in *IBM Journal of Research and Development*, vol. 11, no. 6, pp. 601-617,
+Nov. 1967, doi: 10.1147/rd.116.0601.
+:::
+
+## Another Definition
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+> A computer program is said to learn from experience E with respect to some
+class of tasks T and performance measure P if its performance at tasks in T, as
+measured by P, improves with experience E
+
+:::
+
+::: {.column width="25%"}
+```{r, fig.align = 'center', out.height="300"}
+knitr::include_graphics("Img\\mlbook_mitchell.gif")
+```
+:::
+
+::::
+
+:::{.aside}
+Tom Mitchell, "[Machine Learning](http://www.cs.cmu.edu/~tom/mlbook.html)", McGraw Hill, 1997
+:::
+
+## AlphaGo (2016)
+
+```{r, fig.align = 'center', out.height="450"}
+knitr::include_graphics("Img\\AlphaGo.jpg")
+```
+
+:::{.aside}
+BBC News, [Artificial intelligence: Google's AlphaGo beats Go master Lee Se-dol](https://www.bbc.co.uk/news/technology-35785875)
+
+DeepMind, [AlphaGo - The Movie](https://www.youtube.com/watch?v=WXuK6gekU1Y&t=4167s)
+:::
+
+## Machine Learning We May Use Everyday {.incremental}
+
++ Virtual assistants (e.g. Alexa, Cortana, Google Assistant, Siri)
+
++ Recommender systems (e.g. Amazon, Netflix, Spotify)
+
++ Image recognition (e.g. Facebook)
+
++ Fraud detection (card payments)
+
+...
